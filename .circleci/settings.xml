@@ -11,5 +11,10 @@
             <id>packagecloud.snapshot</id>
             <password>${env.PCLOUD_API_KEY}</password>
         </server>
+        <server>
+            <id>github</id>
+            <username>dfcoffin</username>
+            <password>${env.GIT_PWD}</password>
+        </server>
     </servers>
 </settings>
